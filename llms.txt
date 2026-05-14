@@ -1,0 +1,36 @@
+# mitre-atlas-mcp
+# MITRE ATLAS — Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI/ML, case studies, mitigations.
+
+## Install
+```bash
+pip install mitre-atlas-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `query_atlas_technique(query, api_key)`
+ATLAS technique lookup (AML.Txxxx)
+
+### `list_atlas_tactics(query, api_key)`
+All 14 ATLAS tactics for AI/ML adversarial attacks
+
+### `case_study_lookup(query, api_key)`
+ATLAS case studies (real-world ML attacks)
+
+### `mitigation_for_technique(query, api_key)`
+Mitigations per ATLAS technique
+
+### `map_to_owasp_llm(query, api_key)`
+Cross-map ATLAS techniques to OWASP LLM Top 10
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

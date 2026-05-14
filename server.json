@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/mitre-atlas-mcp",
+  "version": "1.0.0",
+  "description": "MITRE ATLAS \u2014 Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI...",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/mitre-atlas-mcp",
+    "source": "https://github.com/CSOAI-ORG/mitre-atlas-mcp"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "mitre-atlas-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

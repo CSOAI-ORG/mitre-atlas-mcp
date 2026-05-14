@@ -1,0 +1,13 @@
+# MITRE ATLAS (Adversarial AI) MCP - Auto-trigger Rules
+
+When the user asks about MITRE ATLAS, adversarial AI, ML security, OWASP LLM, use mitre-atlas-mcp tools:
+
+- **query_atlas_technique**: ATLAS technique lookup (AML.Txxxx)
+- **list_atlas_tactics**: All 14 ATLAS tactics for AI/ML adversarial attacks
+- **case_study_lookup**: ATLAS case studies (real-world ML attacks)
+- **mitigation_for_technique**: Mitigations per ATLAS technique
+- **map_to_owasp_llm**: Cross-map ATLAS techniques to OWASP LLM Top 10
+
+Install: `pip install mitre-atlas-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.
