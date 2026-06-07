@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "mitre-atlas-mcp",
+    "description": "MITRE ATLAS \u2014 Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI...",
+    "version": "1.0.6",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "mitre-atlas-mcp"
+      }
+    ],
+    "capabilities": [
+      "query_atlas_technique",
+      "list_atlas_tactics",
+      "case_study_lookup",
+      "mitigation_for_technique",
+      "map_to_owasp_llm"
+    ]
+  }
+}

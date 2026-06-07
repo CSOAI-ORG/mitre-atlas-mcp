@@ -1,0 +1,68 @@
+{
+  "name": "mitre-atlas-mcp",
+  "description": "MITRE ATLAS \u2014 Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI...",
+  "url": "https://proofof.ai/scorecard/mitre-atlas-mcp.html",
+  "version": "1.0.6",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "query_atlas_technique",
+      "name": "Query Atlas Technique",
+      "description": "query_atlas_technique via mitre-atlas-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_atlas_tactics",
+      "name": "List Atlas Tactics",
+      "description": "list_atlas_tactics via mitre-atlas-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "case_study_lookup",
+      "name": "Case Study Lookup",
+      "description": "case_study_lookup via mitre-atlas-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "mitigation_for_technique",
+      "name": "Mitigation For Technique",
+      "description": "mitigation_for_technique via mitre-atlas-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "map_to_owasp_llm",
+      "name": "Map To Owasp Llm",
+      "description": "map_to_owasp_llm via mitre-atlas-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
