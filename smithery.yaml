@@ -1,0 +1,28 @@
+name: mitre-atlas-mcp
+description: 'MCP server: mitre-atlas-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/mitre-atlas-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: query_atlas_technique
+  description: ATLAS technique lookup (AML.Txxxx)
+- name: list_atlas_tactics
+  description: All 14 ATLAS tactics for AI/ML adversarial attacks
+- name: case_study_lookup
+  description: ATLAS case studies (real-world ML attacks)
+- name: mitigation_for_technique
+  description: Mitigations per ATLAS technique
+- name: map_to_owasp_llm
+  description: Cross-map ATLAS techniques to OWASP LLM Top 10
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

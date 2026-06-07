@@ -1,0 +1,28 @@
+{
+  "name": "mitre-atlas-mcp",
+  "title": "Mitre Atlas Mcp",
+  "description": "MITRE ATLAS \u2014 Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI/ML, case studies, mitigations.",
+  "version": "1.0.6",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "query_atlas_technique"
+    },
+    {
+      "name": "list_atlas_tactics"
+    },
+    {
+      "name": "case_study_lookup"
+    },
+    {
+      "name": "mitigation_for_technique"
+    },
+    {
+      "name": "map_to_owasp_llm"
+    }
+  ]
+}
