@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mitre-atlas-mcp": {
+      "command": "uvx",
+      "args": [
+        "mitre-atlas-mcp"
+      ]
+    }
+  }
+}
