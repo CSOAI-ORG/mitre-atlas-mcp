@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "mitre-atlas-mcp"
 readme = "README.md"
-version = "1.0.6"
+version = "1.0.7"
 description = "MITRE ATLAS — Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI/ML, case studies, mitigations."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
