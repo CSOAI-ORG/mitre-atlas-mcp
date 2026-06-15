@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "mitre-atlas-mcp"
 readme = "README.md"
-version = "1.0.7"
+version = "1.0.8"
 description = "MITRE ATLAS — Adversarial Threat Landscape for AI Systems. Tactics + techniques for attacking AI/ML, case studies, mitigations."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -29,3 +29,22 @@ only-include = ["server.py"]
 
 [project.scripts]
 mitre-atlas-mcp = "server:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
