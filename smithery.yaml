@@ -3,7 +3,7 @@ description: 'MCP server: mitre-atlas-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/mitre-atlas-mcp
+repository: https://github.com/CSOAI-ORG/mitre-atlas-mcp
 license: MIT
 categories:
 - compliance
